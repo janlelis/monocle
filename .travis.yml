@@ -1,8 +1,13 @@
-language: node_js
-node_js:
-  - "0.8"
-  - "0.10"
-  - "0.12"
-  - "iojs"
-before_install:
-  - npm install -g npm@~1.4.6
+sudo: false
+language: ruby
+
+rvm:
+- 2.2
+- ruby-head
+- jruby-head
+
+cache:
+- bundler
+
+# matrix:
+#   fast_finish: true
