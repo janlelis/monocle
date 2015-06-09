@@ -1,5 +1,5 @@
 module Rationalist
-  VERSION = '1.0.0'
+  VERSION = '2.0.0'
 
   def self.parse(args = ARGV, **options, &unknown_block)
     Argv.new(args, options, unknown_block).argv
