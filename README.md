@@ -1,7 +1,9 @@
 # rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](http://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/rationalist.png)](https://travis-ci.org/janlelis/rationalist)
 
-Rationalist parses command-line arguments into a hash. It is strongly influenced
-by substack's [minimist](https://github.com/substack/minimist) nodejs module.
+*With __rationalist__, the options are just a hash!*
+
+Strongly influenced by substack's
+[minimist](https://github.com/substack/minimist) nodejs module.
 
 ## setup
 
