@@ -1,4 +1,4 @@
-# rationalist [![[version]](https://badge.fury.io/rb/Rationalist.svg)](http://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/Rationalist.png)](https://travis-ci.org/janlelis/rationalist)
+# rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](http://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/rationalist.png)](https://travis-ci.org/janlelis/rationalist)
 
 Rationalist parses command-line arguments into a hash. It is strongly influenced
 by substack's [minimist](https://github.com/substack/minimist) nodejs module.

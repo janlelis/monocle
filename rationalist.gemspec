@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.description   = "parse argument options. a ruby fork of minimist."
   gem.authors       = ["Jan Lelis"]
   gem.email         = ["mail@janlelis.de"]
-  gem.homepage      = "https://github.com/janlelis/Rationalist"
+  gem.homepage      = "https://github.com/janlelis/rationalist"
   gem.license       = "MIT"
 
   gem.files         = Dir["{**/}{.*,*}"].select{ |path| File.file?(path) && path !~ /^pkg/ }
