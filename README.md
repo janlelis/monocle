@@ -25,7 +25,7 @@ fanciful decoration.
 # example
 
 ```ruby
-require 'rationlist'
+require 'rationalist'
 argv = Rationalist.parse(ARGV)
 p argv
 ```
