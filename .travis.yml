@@ -2,12 +2,21 @@ sudo: false
 language: ruby
 
 rvm:
-- 2.2
 - ruby-head
+- 2.5.1
+- 2.4.4
+- 2.3.7
+- 2.2
+- 2.1
+- 2.0
 - jruby-head
+- jruby-9.1.16.0
 
-cache:
-- bundler
-
-# matrix:
+matrix:
+  allow_failures:
+    - rvm: jruby-head
+    - rvm: ruby-head
+    - rvm: 2.2
+    - rvm: 2.1
+    - rvm: 2.0
 #   fast_finish: true
