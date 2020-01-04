@@ -5,10 +5,10 @@ require File.dirname(__FILE__) + "/lib/rationalist"
 Gem::Specification.new do |gem|
   gem.name          = "rationalist"
   gem.version       = Rationalist::VERSION
-  gem.summary       = "parse argument options"
-  gem.description   = "parse argument options. a ruby fork of minimist."
+  gem.summary       = "parse argument options. a ruby fork of minimist."
+  gem.description   = "Command-line arguments to hash"
   gem.authors       = ["Jan Lelis"]
-  gem.email         = ["mail@janlelis.de"]
+  gem.email         = ["hi@ruby.consulting"]
   gem.homepage      = "https://github.com/janlelis/rationalist"
   gem.license       = "MIT"
 
@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^spec/})
   gem.require_paths = ["lib"]
 
-  gem.required_ruby_version = "~> 2.0"
+  gem.required_ruby_version = ">= 2.0"
 end
