@@ -1,6 +1,6 @@
 ## CHANGELOG
 
-## Next
+## 2.0.1
 
 * Fix Object#=~ deprecation warning
 
