@@ -232,8 +232,10 @@ module Rationalist
 
     def numeric?(value)
       value.is_a?(Numeric) ||
-      !(value !~ /\A0x[0-9a-f]+\z/) ||
-      !(value !~ /\A[-+]?(?:\d+(?:\.\d*)?|\.\d+)(e[-+]?\d+)?\z/)
+      value.is_a?(String) && (
+        !(value !~ /\A0x[0-9a-f]+\z/) ||
+        !(value !~ /\A[-+]?(?:\d+(?:\.\d*)?|\.\d+)(e[-+]?\d+)?\z/)
+      )
     end
 
     def Numeric(value)
