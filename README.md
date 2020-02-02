@@ -1,4 +1,4 @@
-# rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](http://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/rationalist.png)](https://travis-ci.org/janlelis/rationalist)
+# rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](https://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/rationalist.png)](https://travis-ci.org/janlelis/rationalist)
 
 *With __rationalist__, the options are just a hash!*
 
