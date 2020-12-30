@@ -1,6 +1,4 @@
-# rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](https://badge.fury.io/rb/rationalist)  [![[travis]](https://travis-ci.org/janlelis/rationalist.png)](https://travis-ci.org/janlelis/rationalist)
-
-*With __rationalist__, the options are just a hash!*
+# rationalist [![[version]](https://badge.fury.io/rb/rationalist.svg)](https://badge.fury.io/rb/rationalist)  [![[ci]](https://github.com/janlelis/rationalist/workflows/Test/badge.svg)](https://github.com/janlelis/rationalist/actions?query=workflow%3ATest)
 
 Strongly influenced by substack's
 [minimist](https://github.com/substack/minimist) nodejs module.
